@@ -7,7 +7,7 @@ import pandas as pd
 import plotly.express as px
 
 # Retrieve dataset
-df = pd.read_csv("data/processed/crimedata_aggregated.csv")
+df = pd.read_csv("../data/processed/crimedata_aggregated.csv")
 print(f"Loaded aggregated dataset, {df.shape[0]} rows read")
 
 # Read in data from the dataset

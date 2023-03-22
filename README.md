@@ -61,13 +61,15 @@ pip install -r src/requirements.txt
 To run it via Flask locally:
 
 ```bash
-python src/app.py
+cd src
+python app.py
 ```
 
 Or, alternatively, you could enable the debug mode with:
 
 ```bash
-DEBUG=1 python src/app.py
+cd src
+DEBUG=1 python app.py
 ```
 
 ### (Optional) Data wrangling script
