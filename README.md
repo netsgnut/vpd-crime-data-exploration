@@ -53,7 +53,7 @@ python -m venv .venv
 ### Install the dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r src/requirements.txt
 ```
 
 ### Run it!
