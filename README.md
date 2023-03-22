@@ -74,8 +74,11 @@ DEBUG=1 python app.py
 
 ### (Optional) Data wrangling script
 
-There is a script at [`src/process_data.py`](src/process_data.py) that reads the raw `crimedata_csv_AllNeighbourhoods_AllYears.csv` in `data/raw/` and process it to be `data/processed/crimedata_aggregated.csv`. Normally, you don't need to run it because both files are provided. But if you would like to tweak the parameters and/or update it to the latest dataset, you can modify the script there.
+There is a script at [`src/process_data.py`](src/process_data.py) that reads the raw `crimedata_csv_AllNeighbourhoods_AllYears.csv` (extracted from the ZIP downloaded from the data portal) in `data/raw/` and process it to be `data/processed/crimedata_aggregated.csv`. Normally, you don't need to run it because both files are provided. But if you would like to tweak the parameters and/or update it to the latest dataset, you can modify the script there.
 
+## Contributing
+
+Thank you for your interest! Make sure to review the [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) for more information!
 ## Copyright and Licensing
 
 The CSV files under `data/` directory are works/direct derivative of works from the [VPD Crime Data](https://geodash.vpd.ca/opendata/).
@@ -87,3 +90,9 @@ Unless otherwise specified, the materials in this repository are covered under t
 Copyright (c) 2023 Kelvin Wong
 
 The software and associated documentation files are licensed under the MIT License. You may find a copy of the license at [`LICENSE`](LICENSE).
+
+## References
+
+[VPD Crime Data](https://geodash.vpd.ca/opendata/)
+
+> **NOTE**: Regarding the assumptions of the dataset, please refer to the `VPD OpenData Crime Incidents Description.pdf` included in the [`data/raw/crimedata_csv_AllNeighbourhoods_AllYears.zip` file](data/raw/crimedata_csv_AllNeighbourhoods_AllYears.zip) file.
